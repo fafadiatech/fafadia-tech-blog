@@ -58,7 +58,7 @@ Following is summary of two talks [Designing Poetic APIs by Erik Rose](https://w
 - Compelling Examples
 - Red falgs for Groviness - Representable nonsense - Invariants that aren't - Lack of clear starting point - Long, complicated documentation
 
-### Safety:
+### Safety
 
 - Walls are there for preveting hurting yourself and others
 - Red flags for Safety - Docs that say "remember to"... or "make sure you..." - Surprisingly people will blame themselves {Which points to bad design}
@@ -428,26 +428,24 @@ Following is summary of two talks [Designing Poetic APIs by Erik Rose](https://w
   page = urllib.urlopen(url).read()
   saved[url] = page
   return page
-  ```
 
+      	# Better way
+      	@cache
+      	def web_lookup(url):
+      		return urllib.urlopen(url).read()
 
-    # Better way
-    @cache
-    def web_lookup(url):
-    	return urllib.urlopen(url).read()
-
-    # Logic for decorator
-    def cache(func):
-    	saved = {}
-    	@wraps(func)
-    	def newfunc(*args):
-    		if args in saved:
-    			return newfunc(*args)
-    		result = func(*args)
-    		saved[*args] = result
-    		return result
-    	return newfunc
-    ```
+      	# Logic for decorator
+      	def cache(func):
+      		saved = {}
+      		@wraps(func)
+      		def newfunc(*args):
+      			if args in saved:
+      				return newfunc(*args)
+      			result = func(*args)
+      			saved[*args] = result
+      			return result
+      		return newfunc
+      	```
 
 - How to open and close files
   ```python
@@ -456,26 +454,24 @@ Following is summary of two talks [Designing Poetic APIs by Erik Rose](https://w
   data = f.read()
   finally:
   f.close()
-  ```
 
-
-    # Better way, closes file automatically
-    with open('data.txt') as f:
-    	data = f.read()
-    ```
+      	# Better way, closes file automatically
+      	with open('data.txt') as f:
+      		data = f.read()
+      	```
 
 - Factor-out temporary context
 
   ````python
   try:
-  os.remove('somefile.tmp')
+      os.remove('somefile.tmp')
   except OSError:
-  pass
+      pass
 
-      	# Better wat
-      	with ignored(OSError):
-      		os.remove('somefile.tmp')
-      	```
+  # Better way
+  with ignored(OSError):
+      os.remove('somefile.tmp')
+  ```
   ````
 
 ### Python Outsourcing
