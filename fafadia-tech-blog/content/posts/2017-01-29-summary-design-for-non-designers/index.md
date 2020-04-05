@@ -4,11 +4,11 @@ date: '2017-02-01T00:00:01.000Z'
 layout: post
 path: '/summary-design-for-non-designers/'
 image: ./desktop-2325627_640.jpg
-description: 'Writing modular and re-usable code make maintenance and development easier. This blog post we explore how to write OO code that allows to achieve this objective'
+description: 'Design is an interesting field, for developers it might be black magic. Following are some lessons developers can learn about design.'
 category: Technical
 tags:
   - Summary
-  - Python
+  - Design
 ---
 
 [Django Con 2016 Video](https://www.youtube.com/watch?v=-JQBfUnYxXA) nicely explains and gives tips for non-designers. Its a good talk to get you upto some level of competency in designing
