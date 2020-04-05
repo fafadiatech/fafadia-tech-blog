@@ -70,7 +70,7 @@
       "git add"
     ],
     "*.md": [
-      "npm run lint:textfix",
+      "yarn run lint:textfix",
       "git add"
     ]
   },
