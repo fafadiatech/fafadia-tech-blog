@@ -1,2 +1,5 @@
 # fafadia-tech-blog
-Official Fafadia Tech's Blog
+
+This blog is using [Gatsby's Bootstrap Theme](https://www.gatsbyjs.org/starters/jaxx2104/gatsby-starter-bootstrap/).
+
+Create content in `content` directory. To deploy blog simply do `gatsby build` and copy to server.
