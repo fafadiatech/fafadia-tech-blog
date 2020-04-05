@@ -1,0 +1,78 @@
+---
+title: 'Summary: Refactoring Python: Why and how to restructure your code'
+date: '2017-02-10T00:00:01.000Z'
+layout: post
+path: '/summary-refactoring-python-why-and-how-to-restructure-your-code/'
+image: ./computer-1245714_640.jpg
+description: 'Refactoring is basic activity that all developers do. This post summarizes interesting talk, learn how to do them more effectively'
+category: Technical
+tags:
+  - Summary
+  - Python
+---
+
+[Refactoring](https://en.wikipedia.org/wiki/Code_refactoring) is often not budgeted. But as [Brett Slatkin](https://twitter.com/haxor) mentions in his [PyCon 2016 talk](https://www.youtube.com/watch?v=D_6ybDcU5gc) it is one of the most important thing experienced developers get into habbit of doing. Following is summary of the talk
+
+- What is refactoring?
+  - Repeatedly reorganizing and rewriting code until its obvious\* to new reader.
+  - When you're refactoring is optimizing for readability
+- When do you refactor?
+  - In advance
+  - For testing
+  - "Don't repeat yourself"
+  - Brittleness
+  - Complexity
+    <!--more-->
+- What's the difference between good and great programmer?
+  - Spend almost equal time in Writing and Testing code, Refactoring and Styling & Documentaton
+    - Half-time in refactoring
+- How do you refactor?
+  - Identify bad code
+  - Improve it
+  - Run tests
+  - Fix and improve tests
+  - Repeat
+- How do you refactor in practice?
+  - Rename, split and move
+  - Simplify
+  - Redraw boundaries
+- Book Recommendations
+  - Refactoring by Martin Fowler
+  - Refactoring Ruby Edition by Jay Fields
+  - Effective Python
+- Strategies
+  - Prerequisites
+    - Thorough Tests
+    - Quick test (Should be less than 5 mins)
+    - Source control
+    - Willing to make mistakes
+  - Extract Variables & Extract Functions
+    - Simplify expressions in if/else blocks to more readable names (i.e. Refactor them into variables)
+    - One step furthure: Extract them into functions
+    - Extracting functions is good, but over time it will become complicated and hard to understand i.e. what it is doing and how to test it
+    - If that is a case, Extract a **Class** from it and use magic method `def __bool__(self)`. Now replace functional version with class version (Aka Non-zero)
+    - Reason to do this is for **testing**. Makes it easy to test thing out
+  - Things to remember:
+    - Extract variables and functions to improve readability
+    - Extract variables into classes to improve testablity
+    - Use `__boo__` to indicate a class is a paper trail
+  - Extract Class & Move Fields
+    - If you have one class with complex logic and does everything in one single class that is a sign it needs refactoring
+    - How do you redraw boundaries?
+      - Add an improved interface
+        - Maintain backwards compatability
+        - Issue warning for old usage
+        - `import warnings`
+        - `warnings.warn("something")`
+        - `python -W error your_code.py` will convert warnings to errors
+    - Refactor `Pet` class to `Animal`
+    - Raise TypeError for mixed usages (old and new one)
+      - Migrate old usage to new usage
+        - Run tests to verify the new correctness
+        - Fix and improve broken tests
+      - Remove code from interface
+        - Things to Remember:
+          - Split classes using optional arguments to `__init__`
+          - Use `@property` to move methods and fields between classes
+          - Issue warnings in old code paths to find their occurance
+      - Need defensive property tombstones

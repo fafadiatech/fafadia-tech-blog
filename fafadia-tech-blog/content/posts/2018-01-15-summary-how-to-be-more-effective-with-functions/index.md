@@ -23,6 +23,8 @@ tags:
 1. Consider generators instead of returning lists
 1. Be defensive when iterating over arguments
 
+<!--more-->
+
 ## Reduce visual noise with variable positional arguments
 
 This helps reduce visual clutter. Lets look at how the following snippet can be refactored
