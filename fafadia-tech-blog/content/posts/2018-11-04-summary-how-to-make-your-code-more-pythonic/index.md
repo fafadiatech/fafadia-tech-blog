@@ -32,6 +32,8 @@ Following is summary of two talks [Designing Poetic APIs by Erik Rose](https://w
 - If you're going to be wiered, be self consistent
 - Red flags for Consistency: - Frequent references to your own documentation - Feel syntactically correct {Make sure novely pays off than shows off}
 
+<!--more-->
+
 ### Brevity
 
 - Try to make common things shorts
@@ -421,7 +423,8 @@ Following is summary of two talks [Designing Poetic APIs by Erik Rose](https://w
 - Good naming is essential
 - Remember the Spiderman rule: With great power comes great responsibility
 - Using decorators to factor-out administrative logic
-  ```python
+
+  ````python
   def web_lookup(url, saved={}):
   if url in saved:
   return saved[url]
@@ -447,8 +450,11 @@ Following is summary of two talks [Designing Poetic APIs by Erik Rose](https://w
       		return newfunc
       	```
 
+  ````
+
 - How to open and close files
-  ```python
+
+  ````python
   f = open('data.txt')
   try:
   data = f.read()
@@ -459,6 +465,8 @@ Following is summary of two talks [Designing Poetic APIs by Erik Rose](https://w
       	with open('data.txt') as f:
       		data = f.read()
       	```
+
+  ````
 
 - Factor-out temporary context
 
