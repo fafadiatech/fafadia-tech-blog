@@ -7,7 +7,7 @@ module.exports = {
     twitter: 'fafadiatechhq``',
     adsense: '',
   },
-  pathPrefix: '/',
+  pathPrefix: '/gatsby',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
