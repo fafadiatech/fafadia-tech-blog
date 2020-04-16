@@ -7,11 +7,8 @@ const Footer = ({ author, title }) => (
     <div className="container">
       <hr className="border-primary" />
       <p>
-        {title}
-        <Link to="/profile/">
-          <br />
-          <strong>{author}</strong> on Profile
-        </Link>
+        All Rights Reserved by{' '}
+        <a href="https://www.fafadiatech.com/">Fafadia Tech</a>
       </p>
     </div>
   </div>
