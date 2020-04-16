@@ -1,5 +1,5 @@
 ---
-title: 'Summary: How to Write Reusable Code'
+title: 'Summary: How to Write Actually Object Oriented Python'
 date: '2017-02-01T00:00:01.000Z'
 layout: post
 path: '/summary-how-to-write-actually-object-oriented-python/'
