@@ -57,7 +57,7 @@ An ERP can help by unifying information related to a company coherently which he
     <img src="./sales-process-flow.jpg" width="186" height="141"/ >  
 </p>
 
-## How to use an actually use ERP
+## How to actually use an ERP
 
 The best approach while implementing ERP is working backward. Define your Why before you define your How. The following can be used as a guideline:
 
