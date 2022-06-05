@@ -1,0 +1,171 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/component---node-modules-gatsby-plugin-offline-app-shell-js-935e0e69dcc64ca6d5cc.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.774cf74463dfedeae8fb.css
+  Cache-Control: public, max-age=31536000, immutable
+/styles-7e230589d322286b85ef.js
+  Cache-Control: public, max-age=31536000, immutable
+/commons-f3e6e7230b9a7258b570.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-15c0174500064c7a5b35.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-profile-js-a3d592f19800e36407c8.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-9202295d39d1c89b4dc6.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-53f5072dae69598b4905.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/blog/offline-plugin-app-shell-fallback/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/component---node-modules-gatsby-plugin-offline-app-shell-js-935e0e69dcc64ca6d5cc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-how-to-make-your-code-more-pythonic/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-how-to-make-your-code-more-pythonic/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/how-to-use-erp/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/how-to-use-erp/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-django-i-didnt-know-queryset-could-do-that/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-django-i-didnt-know-queryset-could-do-that/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-decorators-a-powerful-weapon-in-your-python-arsenal/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-decorators-a-powerful-weapon-in-your-python-arsenal/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/download-nse-bse-bhavcopies-in-python-using-click/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/download-nse-bse-bhavcopies-in-python-using-click/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-how-to-be-more-effective-with-functions/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-how-to-be-more-effective-with-functions/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-refactoring-python-why-and-how-to-restructure-your-code/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-refactoring-python-why-and-how-to-restructure-your-code/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/pro-tip-code-review-checklistdjango-covered/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/pro-tip-code-review-checklistdjango-covered/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-how-to-write-actually-object-oriented-python/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-how-to-write-actually-object-oriented-python/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-how-to-write-reusable-code/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-how-to-write-reusable-code/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-design-for-non-designers/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-design-for-non-designers/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/summary-readability-counts/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/summary-readability-counts/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/5-variants-of-word-embeddings/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-index-js-bd7c1315f2cb8a9d84dc.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/5-variants-of-word-embeddings/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-pages-index-js-15c0174500064c7a5b35.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/profile/
+  Link: </blog/webpack-runtime-9202295d39d1c89b4dc6.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/app-53f5072dae69598b4905.js>; rel=preload; as=script
+  Link: </blog/styles-7e230589d322286b85ef.js>; rel=preload; as=script
+  Link: </blog/commons-f3e6e7230b9a7258b570.js>; rel=preload; as=script
+  Link: </blog/component---src-pages-profile-js-a3d592f19800e36407c8.js>; rel=preload; as=script
+  Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/profile/page-data.json>; rel=preload; as=fetch; crossorigin
